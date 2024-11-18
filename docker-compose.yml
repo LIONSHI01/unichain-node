@@ -8,8 +8,8 @@ services:
       - .env
       - .env.sepolia
     ports:
-      - 30303:30303/udp
-      - 30303:30303/tcp
+      - 30309:30303/udp
+      - 30309:30303/tcp
       - 8547:8545/tcp
       - 8548:8546/tcp
     volumes:
